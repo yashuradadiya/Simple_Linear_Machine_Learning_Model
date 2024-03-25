@@ -1,9 +1,9 @@
-**Repository Name: Linear Regression Model Implementation**
+# *Linear Regression Model Implementation*
 
-**Overview:**
+## Overview:
 This repository contains code for implementing a simple linear machine learning model using Python and the scikit-learn library. The model is designed for regression tasks and is implemented in Jupyter Notebooks. Additionally, there is a separate Python script for deploying the trained model using Streamlit.
 
-**Contents:**
+## Contents:
 - **Notebooks (.ipynb):**
   - These Jupyter Notebooks guide through the implementation of the linear regression model.
   - Sections include data preprocessing, model training, evaluation, and prediction.
@@ -21,7 +21,7 @@ This repository contains code for implementing a simple linear machine learning 
   - `model.pkl`: This pickle file contains the trained linear regression model.
   - `scaler.pkl`: This pickle file contains the scaler object used for preprocessing the data before model training.
 
-**Dependencies:**
+## Dependencies:
 Ensure you have the following dependencies installed in your Python environment:
 - Python
 - Jupyter Notebook
@@ -31,8 +31,9 @@ Ensure you have the following dependencies installed in your Python environment:
 - seaborn
 - scikit-learn
 - Streamlit
+- pickle
 
-**Usage:**
+## Usage:
 1. Clone or download this repository to your local machine.
 2. Make sure you have all dependencies installed in your Python environment.
 3. Launch Jupyter Notebook and navigate to the directory containing the repository.
@@ -41,7 +42,7 @@ Ensure you have the following dependencies installed in your Python environment:
 6. The notebook will guide you through loading the dataset, preprocessing the data, training the linear regression model, evaluating its performance, and making predictions.
 7. Modify the code cells as needed to experiment with different datasets, model parameters, or evaluation metrics.
 
-**Deployment:**
+## Deployment:
 1. To deploy the trained model, navigate to the directory containing the repository.
 2. Ensure `model.pkl` and `scaler.pkl` files are present in the directory.
 3. Run the deployment script using the following command:
@@ -51,6 +52,5 @@ Ensure you have the following dependencies installed in your Python environment:
 4. This will start a local server hosting the Streamlit app.
 5. Access the app through your web browser and interact with the deployed model.
 
-**Note:** Ensure that you have the trained model (`model.pkl`) and scaler object (`scaler.pkl`) saved in the same directory as `app.py` for successful deployment.
-
-**Author:** Radadiya Yashvi
+## Note:
+Ensure that you have the trained model (`model.pkl`) and scaler object (`scaler.pkl`) saved in the same directory as `app.py` for successful deployment.
